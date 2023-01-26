@@ -1,3 +1,5 @@
+#task1
+#get max number from file and write it in the same file
 with open("numbers.txt", "r") as f:
     # Read the file into a list of numbers
     numbers = [int(line) for line in f if line.strip().isdigit()]
